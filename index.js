@@ -5,7 +5,8 @@ function usandoApi() {
   axios
     .get(url)
     .then((response) => {
-      console.log(response);
+      const data = response.data;
+      monstrandoApi.textContent = JSON.stringify(data);
     })
     .catch((error) => {
       console.log(error);
