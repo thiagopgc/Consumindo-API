@@ -20,7 +20,7 @@ header {
 }
 main {
   width: 100%;
-  height: auto;
+  height: 100%;
   background-color: darkgray;
   display: flex;
   justify-content: center;
