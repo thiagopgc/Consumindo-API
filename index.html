@@ -4,10 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <title>ConsumindoApi</title>
   </head>
   <body>
-    <div id="monstrandoApi"></div>
+    <header><h1>Produtos Calindra</h1></header>
+    <main>
+      <form>
+        <label for="produto"><h2>Verificar estoque</h2></label>
+        <input type="text" id="produto" placeholder="digite um produto" />
+        <button id="botao">buscar</button>
+      </form>
+    </main>
+    <div id="produtosRetornados"></div>
+    <footer><h1>Produtos</h1></footer>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./index.js"></script>
